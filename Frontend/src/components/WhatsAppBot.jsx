@@ -33,7 +33,7 @@ to get fully support any time anywhere </p>
     <button>JOIN GROUP</button>
 
     <h4 className='s2'>Features of WhatsApp Askly</h4>
-    <p>‧ Get 27/7 support on WhatsApp</p>
+    <p>‧ Get 24/7 support on WhatsApp</p>
     <p>‧ Not need to download additional App</p>
   </div>
   <div className="mobile-pic">

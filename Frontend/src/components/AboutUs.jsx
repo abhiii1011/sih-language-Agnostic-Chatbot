@@ -29,13 +29,17 @@ const About = ({title}) => {
       <div id="about-center">
         <h1>~About page</h1>
         <p id="about-text">
-          A modern, minimalistic logo for EduGuide. The design should represent
-          education, guidance, and connectivity. Use an open book or graduation
-          cap symbol blended with a compass or guiding arrow to reflect
-          "guidance". Keep the style clean, flat, and professional with smooth
-          lines. Use a calm and trustworthy color palette (blue, teal, or green).
-          The text EduGuide should appear in a bold, modern sans-serif font below
-          or beside the symbol.
+        In most colleges, students face a common problem: getting clear and quick answers to their everyday queries. Whether it’s about fees, forms, schedules, scholarships, or events, students often spend hours standing in queues, searching through notice boards, or waiting for faculty responses. To make matters harder, most notices and circulars are shared only in English, which isn’t always easy for every student to understand. This creates delays, confusion, and stress in campus life.
+
+ASKLY is designed to change that. It is a multilingual chatbot that makes communication between students and faculty simple, fast, and inclusive. Instead of waiting for answers, students can ask their questions anytime—through the college website or even WhatsApp—and receive instant, reliable support.
+
+One of the biggest strengths of ASKLY is that it works in multiple languages. Students can use English, Hindi, or their regional language to ask queries, and the chatbot responds clearly. This ensures that no student is left behind due to language barriers. ASKLY can also explain notices or circulars in simple words and even help students draft polite, professional emails for faculty.
+
+For students, ASKLY provides 24/7 guidance, saving valuable time and reducing stress. For faculty and staff, it cuts down repetitive questions and reduces workload by up to 70%, allowing them to focus on more meaningful tasks. At the same time, ASKLY promotes eco-friendly, paperless communication across the campus.
+
+Our vision is to build smarter, more inclusive campuses across India—where every student has equal access to information and feels supported in their educational journey. With ASKLY, communication becomes seamless, inclusive, and stress-free.
+
+ASKLY is more than just a chatbot—it’s your campus assistant, always ready to help.
         </p>
       </div>
 

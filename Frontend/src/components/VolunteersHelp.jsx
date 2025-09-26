@@ -9,24 +9,61 @@ const VolunteersHelp = ({title}) => {
 
   // dummy data for UI
   const dummyPosts = [
-    {
-      id: 1,
-      name: "John Kappa",
-      profile: "https://via.placeholder.com/40",
-      comment:
-        "Here’s an idea 🤔 do something good for someone and don’t post about it on social media.",
-      date: "Apr 21, 2021",
-      time: "12:30 PM",
-    },
-    {
-      id: 2,
-      name: "John Kappa",
-      profile: "https://via.placeholder.com/40",
-      comment: "Here’s another idea 💡 keep smiling and spread positivity.",
-      date: "Apr 22, 2021",
-      time: "01:15 PM",
-    },
-  ];
+  {
+    id: 1,
+    comment: "Fees ka last date kab hai?",
+    date: "2025-09-12",
+    time: "10:15 AM",
+    profilePic: "https://randomuser.me/api/portraits/men/32.jpg",
+    name: "Rahul Verma",
+    username: "@rahulv"
+  },
+  {
+    id: 2,
+    comment: "Scholarship students ke liye bhi late fine lagta hai kya?",
+    date: "2025-09-12",
+    time: "10:18 AM",
+    profilePic: "https://randomuser.me/api/portraits/women/45.jpg",
+    name: "Anjali Sharma",
+    username: "@anjali_s"
+  },
+  {
+    id: 3,
+    comment: "Mera B.Sc 1st year exam timetable bata do.",
+    date: "2025-09-13",
+    time: "02:05 PM",
+    profilePic: "https://randomuser.me/api/portraits/men/14.jpg",
+    name: "Amit Yadav",
+    username: "@amit_y"
+  },
+  {
+    id: 4,
+    "comment": "Hostel warden ka contact number chahiye.",
+    "date": "2025-09-13",
+    "time": "07:42 PM",
+    "profilePic": "https://randomuser.me/api/portraits/women/28.jpg",
+    "name": "Pooja Patel",
+    "username": "@pooja_p"
+  },
+  {
+    "id": 5,
+    "comment": "Migration certificate ke liye process kya hai?",
+    "date": "2025-09-14",
+    "time": "11:30 AM",
+    "profilePic": "https://randomuser.me/api/portraits/men/50.jpg",
+    "name": "Rohan Mehta",
+    "username": "@rohanm"
+  },
+  {
+    "id": 6,
+    "comment": "Mujhe HOD ko leave ke liye ek application draft karni hai.",
+    "date": "2025-09-14",
+    "time": "05:10 PM",
+    "profilePic": "https://randomuser.me/api/portraits/men/60.jpg",
+    "name": "Karan Singh",
+    "username": "@karan_s"
+  }
+]
 
   const [posts, setPosts] = useState(useBackend ? [] : dummyPosts);
   const [newComment, setNewComment] = useState("");

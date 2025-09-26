@@ -1,28 +1,28 @@
 
 const cardData = [
-  {
-    heading: "AI Chat",
-    text: "This is an AI-powered chatbot that helps you answer questions instantly. It supports multiple languages and complex queries, making learning easy and interactive."
+                                                                                                                                                                                                                   {
+    heading: "Courses",
+    text: "Explore all the courses offered by the college including engineering, management, science, and arts. Each course includes details like duration, syllabus, and career opportunities."
   },
   {
-    heading: "Bullet Board",
-    text: "A digital bulletin board for managing tasks, sharing ideas, and collaborating with your team. It’s lightweight, flexible, and designed for productivity."
+    heading: "Admissions",
+    text: "Get complete admission guidelines including eligibility criteria, entrance exams, important dates, and application process to secure your seat easily."
   },
   {
-    heading: "Bullet Board",
-    text: "A digital bulletin board for managing tasks, sharing ideas, and collaborating with your team. It’s lightweight, flexible, and designed for productivity."
+    heading: "Fees",
+    text: "Check the latest fee structure for different programs with detailed breakdowns of tuition, hostel, and examination charges."
   },
   {
-    heading: "Bullet Board",
-    text: "A digital bulletin board for managing tasks, sharing ideas, and collaborating with your team. It’s lightweight, flexible, and designed for productivity."
+    heading: "Scholarships",
+    text: "Find scholarships based on merit, financial need, or government schemes. Get information on eligibility, application deadlines, and required documents."
   },
   {
-    heading: "Bullet Board",
-    text: "A digital bulletin board for managing tasks, sharing ideas, and collaborating with your team. It’s lightweight, flexible, and designed for productivity."
+    heading: "Events",
+    text: "Stay updated with college fests, cultural activities, workshops, seminars, and hackathons happening throughout the year."
   },
   {
-    heading: "Offline Mode",
-    text: "Access your saved chats and bullet boards even when you’re offline. Everything syncs automatically when you reconnect to the internet."
+    heading: "Placements",
+    text: "Track placement records, top recruiters, internship opportunities, and career guidance programs available for students."
   }
 ];
 
