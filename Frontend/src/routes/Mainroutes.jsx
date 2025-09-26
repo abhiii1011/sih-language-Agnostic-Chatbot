@@ -15,6 +15,7 @@ import VolunteersHelp from "../components/VolunteersHelp.jsx";
 import AboutUs from "../components/AboutUs.jsx";
 import AIAgent from "../components/AIAgent.jsx";
 import Settings from "../components/Settings.jsx";
+import FaceExpressionDetector from "../pages/detect/FaceExpressionDetector.jsx";
 
 const Mainroutes = () => {
   return (
@@ -34,6 +35,7 @@ const Mainroutes = () => {
       <Route path="/about" element={<PrivateRoute><AboutUs title="About Us" /></PrivateRoute>} />
       <Route path="/ai-agent" element={<PrivateRoute><AIAgent title="AI Agent" /></PrivateRoute>} />
       <Route path="/settings" element={<PrivateRoute><Settings title="Settings" /></PrivateRoute>} />
+      <Route path="/emotion" element={<PrivateRoute><FaceExpressionDetector title="Emotion Detection" /></PrivateRoute>} />
     </Routes>
   );
 };

@@ -80,7 +80,7 @@ const Nav = () => {
                 <p>Chat AI</p>
               </NavLink>
 
-              <NavLink to="/bulletin" onClick={handleLinkClick} className={({ isActive }) => isActive ? "active bullet" : "bullet"}>
+              <NavLink to="/emotion" onClick={handleLinkClick} className={({ isActive }) => isActive ? "active bullet" : "bullet"}>
                 <i className="ri-book-open-line"></i>
                 <p>Bulletin</p>
               </NavLink>
